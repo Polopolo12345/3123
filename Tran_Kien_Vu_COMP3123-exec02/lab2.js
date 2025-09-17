@@ -59,7 +59,6 @@ class Sedan extends Car {
     return `${this.model} has balance of $${this.balance.toFixed(2)}`;
   }
 }
-
 const car2 = new Car('Pontiac Firebird', 1976);
 console.log(car2.details());
 
